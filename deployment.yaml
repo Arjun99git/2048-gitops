@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: app-2048
-        image: 774928063762.dkr.ecr.us-east-1.amazonaws.com/custom-2048:v2
+        image: public.ecr.aws/l6m2t8p7/docker-2048:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
