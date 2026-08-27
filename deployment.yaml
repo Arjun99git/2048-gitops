@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: app-2048
-        image: 774928063762.dkr.ecr.us-east-1.amazonaws.com/custom-2048:game-v1
+        image: 774928063762.dkr.ecr.us-east-1.amazonaws.com/custom-2048:game-v2
         imagePullPolicy: Always
         ports:
         - containerPort: 80
