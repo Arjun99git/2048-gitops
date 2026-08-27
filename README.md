@@ -2,6 +2,16 @@
 
 A playable 2048 web application deployed on Amazon EKS using AWS Fargate, exposed through an Application Load Balancer, and managed with Argo CD GitOps.
 
+## Project Demo
+
+### Playable 2048 Application
+
+![Playable 2048 application deployed on EKS Fargate](docs/images/2048-game.jpg)
+
+### Argo CD GitOps Application
+
+![Argo CD application managing the 2048 deployment](docs/images/argocd-gitops.jpg)
+
 ## Architecture
 
 ```mermaid
